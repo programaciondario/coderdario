@@ -1,0 +1,33 @@
+GIT -- https://git-scm.com/
+1- git --version
+2- git config --global user.name "TU NOMBRE"
+3- git config --global user.email "tuemail@algo"
+4- Repasamos los datos si estan bien
+5- git config user.name
+6- git config user.email
+-------------------------------------------------------------
+7- git init
+8- EDITOR -- crear index.html 
+9- git status
+10- git add index.html / git add . --- agrega todo al stage
+11- git commit -m "subida del index"
+12- git log --oneline
+13- EDITOR -- crear linus.html o agregar cualquier contenido al repo
+14- git status
+15- git add . --- agrega todo al stage
+16- git commit -m "subimos linus" -- subida del commit
+17- git log --oneline --- veo todos los commit
+18- git checkout (cod de commit al que quiero volver)
+-------------------------------------------------------------
+19- git branch -- en q rama estoy
+20- git branch mi_rama_nueva -- creo una nueva rama
+21- git branch -l --- lista de las ramas de mi proyecto
+22- git checkout mi_rama_nueva --- me cambio de rama
+23- git checkout master -- vuelvo a la rama master
+24- git branch -d mi_rama --- borro la mi_rama
+25- git branch mi_rama_nueva2 -- creo una nueva rama
+26- EDITOR -- crear linux-que-es.html o agregar cualquier contenido al repo
+-------------------------------------------------------------
+27- git checkout master (me muevo a mi rama master)
+28- git merge mi_rama_nueva2  --- fusionamos la nueva rama a nuestra rama master
+

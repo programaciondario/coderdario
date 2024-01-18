@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/fondo/paisaje-montana.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*================================           header          ================================================================*/
+.img {
+    width: 100%;
+    height: auto;
+    background-image: url(https://usagif.com/wp-content/uploads/gif/howling-wolf-4.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.img .container {
+    padding: 20%;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+
+}
+
+.img .container p{
+    padding-top: 10% ;
+}
+
+/*==============================================================================================================================*/
+
+
+/*=======================================================    main      ===========================================================*/
+
+.main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.main .container-text{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.main .container-text .text {
+    color: black;
+
+}
+
+
+.main .prime-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 100px 0px;
+    padding-top: 4%;
+    
+    
+}
+
+
+/*======================      footer     ===================================*/
+
+.footer {
+    background-color: rgba(250, 239, 224, 0.705);
+}
+
+.footer .container-footer{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
